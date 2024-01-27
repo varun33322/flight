@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bookairfast Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<!----- Bootstrap CDN File ----->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+		<!----------- font awesome 4 cdn ------------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="AdminSignin.css">
+	<script src="login.js"> </script>
+	<script src="jump.js"> </script>
+	<link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" type="text/css" href="RegisterPageNew.css">
+</head>
+<body>
+
+
+	<header id="header">
+			<nav class="navbar navbar-expand-lg navigation">		
+				<i class="fa fa-bars titlebar"></i>
+  				<a class="navbar-brand title" href="#"><h2>Bookairfast.com</h2><p>We Specialize in your air plan!</p></a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="	navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  				</button>
+ 			 <div class="collapse navbar-collapse" id="navbarNav">
+    			<ul class="navbar-nav navbarlist">
+      				<li class="nav-item">
+        				<a class="nav-link" href="Homepage.html" title="Home">Home</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class=" nav-link tooltipBook" href="homepage.html">Book</a>
+      				</li>
+    				<li class="nav-item">
+        				<a class="nav-link" href="Admin_Page.html" title="Manage" target="_blank">Manage</a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="OffersPage.html" target="_blank" title="Offers">Offers<span class="newOffers">New</span></a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="ExplorePageNew.html" target="_blank" title="Explore">Explore</a>
+    				</li>
+    				<li class="nav-item">
+        				<a class="nav-link" href="GalleryPage.html" target="_blank" title="Gallery">Gallery</a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" title="Login" href="LoginPageNew.html">Login</a>
+    				</li>
+    			</ul>
+ 			 </div>
+		</nav>	
+	</header>
+
+    <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+              <p id="p1">Bookairfast.com</p>
+              <div class="login_h">
+                <h2>Register</h2>
+                <p>Track prices, make trip planning easier and enjoy faster booking.</p>
+              </div>
+              <form action="RegisterPage.php" method="post">
+                <div class="input">
+                  <i class="fa fa-user"></i><input type="text" name="usewrname" placeholder="Username" required>                  <i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Email">
+                  <i class="fa fa-lock"></i><input type="password" name="psw" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                <input type="checkbox" name=""><p>Remember me</p>
+                <div class="btns">
+                    <a href="LoginPageNew.html"><button type="button" name="loginbtn" id="loginbtn">Login</button></a>
+                    <button type="button" name="registerbtn" id="registerbtn">Register</button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!------ footer --------->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 footer-box">
+          <h3><b>Company</b></h3>             
+          <p>About Us<p>        
+          <p>Company Details<p> 
+          <p>Privacy</p>    
+        </div>
+        <div class="col-sm-4 footer-box">
+          <h3><b>Contact Us</b></h3>  
+          <p><i class="fa fa-map-marker"></i>New Delhi, India</p>
+          <p><i class="fa fa-phone"></i>+1 9765454662</p>
+          <p><i class="fa fa-envelope-o"></i>bookairfast@gmail.com</p>
+        </div>
+        <div class="col-sm-4 social-media">
+          <h3>Follow Us On</h3>
+          <div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>          
+    <hr />
+      <div class="row">
+        <div class="col-sm-10">
+          <p id="term1">Cheap Flight Tickets - Cheap flights booking by comparing millions of air tickets to find you the cheapest  flight offers
+          </p>
+          <p id="term2"><span>Privacy</span><span>Terms & Conditions</span><span>©2020 Bookairfast.com</span></p>
+        </div>
+        <div class="col-sm-2">
+          <button class="smooth-btn"><i class="fa fa-arrow-up" title="Top" aria-hidden="true"></i></button>
+        </div>
+  </footer> 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="homepage.js"></script>
+</body>
+</html>

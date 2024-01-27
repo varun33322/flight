@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Manage section*/
+section
+{
+	margin: 20px 0;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img_int/a3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 50px 0 0 40px;
+
+}
+section .btn-group #a,#u,#d
+{
+	margin: 20px 20px 70px 20px;
+	border-radius: 30px;
+	width: 200px;
+	padding: 10px 0;
+	font-weight: 600;
+	font-size: 20px;
+}
+section .btn-group #a:hover,#u:hover,#d:hover
+{
+	box-shadow: 2px 2px 5px white;
+}
+section label
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+}
+section input
+{
+	border-radius: 200px;
+	width: 100%;
+}
+section span
+{
+	color: red;
+	position: absolute;
+	left: 800px;
+	top: -39px;
+}
+section .btn-block
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	width: 100px;
+	border-radius: 20px;
+}
+section .btn-block:hover
+{
+	color:#000;
+	box-shadow: 2px 2px 5px #fff;
+}
+section .search-btn
+{
+	position: absolute;
+	left: 770px;
+	top: -40px;
+}

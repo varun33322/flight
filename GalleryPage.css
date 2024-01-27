@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* gallery section */
+section 
+{
+	margin: 20px 0;
+}
+section .col-sm-4
+{
+	margin: 10px 0;
+}
+section img
+{
+	width: 350px;
+	height: 200px;
+	padding: 10px;
+	box-shadow: 2px 2px 5px lightblue;
+	transition: linear 1s;
+}
+
+section img:hover
+{
+	transform: scale(1.1,1.2);
+	transition: 2s;
+}

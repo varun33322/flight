@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* login section */
+section
+{
+	margin: 2px 0;
+	padding: 100px 350px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+section .container .col-sm-10
+{
+	padding: 10px 10px 20px 10px;
+	color: white;
+	height: 580px;
+	background: black;
+}
+section .container .col-sm-10 #p1
+{
+	position: relative;
+	left: -8px;
+	font-weight: 700;
+}
+section .container .col-sm-10 .login_h
+{
+	text-align: center;
+	padding: 20px 0;
+}
+section .container .col-sm-10 .login_h h2
+{
+	color: #00ffff;
+}
+section .container .col-sm-10 .login_h p
+{
+	line-height: 2px;
+	font-size: 14px;
+	padding-bottom: 20px; 
+}
+section .container .col-sm-10 .input input
+{
+	width: 90%;
+	margin: 10px 10px 10px 20px;
+	padding: 10px 10px 10px 20px;
+	border: none;
+	outline: none;
+	background: none;
+	color: #fff;
+	font-weight: 600;
+	border-bottom: 2px solid #fff;
+}
+section .checkbox input
+{
+	position: relative;
+	top: 26px;
+	left: 20px;
+}
+
+section .checkbox p
+{
+	position: relative;
+	left: 20px;
+}
+section .container .col-sm-10  button
+{
+	width: 90%;
+	margin: 10px 10px 10px 20px;
+	background: none;
+	color: white;
+	border: 1px solid #fff;
+	padding: 5px 0;
+	font-weight: bolder;
+	font-size: 22px; 
+}
+section .container .col-sm-10 #registerbtn
+{
+	background: #00ffff;
+	color: black;
+	border: 1px solid #fff;
+}
+#registerbtn:hover
+{
+	box-shadow: 2px 2px 5px white;
+}
+#loginbtn:hover
+{
+	background: #00ffff;
+	color: black;
+	box-shadow: 2px 2px 5px white;
+}
+section i
+{
+	color: white;
+	font-size: 18px;
+	position: relative;
+	left: 30px;
+}

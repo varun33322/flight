@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bookairfast Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<!----- Bootstrap CDN File ----->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+		<!----------- font awesome 4 cdn ------------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="AdminSignin.css">
+	<script src="login.js"> </script>
+	<script src="jump.js"> </script>
+	<link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" type="text/css" href="ManagePageNew.css">
+  <script  src="jquery-1.9.1.min.js"></script>
+  <script src="Admin.js"></script>
+
+</head>
+<body>
+	<header id="header">
+			<nav class="navbar navbar-expand-lg navigation">		
+				<i class="fa fa-bars titlebar"></i>
+  				<a class="navbar-brand title" href="#"><h2>Bookairfast.com</h2><p>We Specialize in your air plan!</p></a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="	navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  				</button>
+ 			 <div class="collapse navbar-collapse" id="navbarNav">
+    			<ul class="navbar-nav navbarlist">
+      				<li class="nav-item">
+        				<a class="nav-link" href="Homepage.html" title="Home">Home</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class=" nav-link tooltipBook" href="homepage.html">Book</a>
+      				</li>
+    				<li class="nav-item">
+        				<a class="nav-link" href="ManagePageNew.html" title="Manage">Manage</a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="OffersPage.html" target="_blank" title="Offers">Offers<span class="newOffers">New</span></a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="ExplorePageNew.html" target="_blank" title="Explore">Explore</a>
+    				</li>
+    				<li class="nav-item">
+        				<a class="nav-link" href="GalleryPage.html" target="_blank" title="Gallery">Gallery</a>
+    				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" title="Login" href="LoginPageNew.html" target="_blank">Login</a>
+    				</li>
+    			</ul>
+ 			 </div>
+		</nav>	
+	</header>
+
+<section>
+  <div class="container">
+    
+    <div class="btn-group btn-group-justified">
+      <div class="btn btn-primary" id="a">Add</div>
+      <div class="btn btn-primary" id="u">Update</div>
+      <div class="btn btn-primary" id="d">Delete</div>
+    </div>
+  
+    <div id = "add">
+    <form class="form-horizontal" role="form" id="addf">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="flightno2">Flight No.</label>
+        <div class="col-sm-8">
+          <input type="flightno" class="form-control" id="flightno2" placeholder="" name="flightno">
+          
+        </div>
+        
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="airplaneid2">Airplane Id</label>
+        <div class="col-sm-8">
+          <input type="airplaneid" class="form-control" id="airplaneid2" placeholder="" name="airplaneid">
+        </div>
+        <label class="control-label col-sm-1" for="airpiddetail" id = "ad1"><span>details</font></label>
+        <div class="col-sm-3" id = "detail">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="departure">Departure Airport</label>
+        <div class="col-sm-8">
+          <input type="departure" class="form-control" id="departure2" placeholder="" name="departure">
+        </div>
+        <label class="control-label col-sm-1" for="dairportdetail" id="ad2" ><span>details</span></label>
+        <div class="col-sm-3" id = "adetail2">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="dtime">Departure Time</label>
+        <div class="col-sm-8">
+          <input type="dtime" class="form-control" id="dtime2" placeholder="" name="dtime">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="arrival">Arrival Airport</label>
+        <div class="col-sm-8">
+          <input type="arrival" class="form-control" id="arrival2" placeholder="" name="arrival">
+        </div>
+        <label class="control-label col-sm-1" for="dairportdetail" id="ad3" ><span>details</span></label>
+        <div class="col-sm-3" id = "adetail3">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="atime">Arrival Time</label>
+        <div class="col-sm-8">
+          <input type="atime" class="form-control" id="atime2" placeholder="" name="atime">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="ecapacity">Economy Capacity</label>
+        <div class="col-sm-8">
+          <input type="ecapacity" class="form-control" id="ecapacity2" placeholder="" name="ecapacity">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="eprice">Economy Price</label>
+        <div class="col-sm-8">
+          <input type="eprice" class="form-control" id="eprice2" placeholder="" name="eprice">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="bcapacity">Business Capacity</label>
+        <div class="col-sm-8">
+          <input type="bcapacity" class="form-control" id="bcapacity2" placeholder="" name="bcapacity">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="bprice">Business Price</label>
+        <div class="col-sm-8">
+          <input type="bprice" class="form-control" id="bprice2" placeholder="" name="bprice">
+        </div>
+      </div>
+      
+      <br />
+      <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-6">
+          <input type = "button" class="btn btn-primary btn-block" name="btn-submit" id="ad" value = "Submit" />
+        </div>
+      </div>
+    </form>
+    </div>
+    <div id = "update">
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="number">Flight No.</label>
+        <div class="col-sm-8">
+          <input type="flightno" class="form-control" name="number" id="number" placeholder="">
+          
+        </div>
+        <div class="col-sm-2">
+          <input type="button" class="btn btn-success btn-block search-btn" name="search" id="search" value = "Search flight" />
+        </div>
+      </div>
+    </form>
+    <form class="form-horizontal" role="form" id="result">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="flightno">Flight No.</label>
+        <div class="col-sm-8">
+          <input type="flightno" class="form-control" id="flightno1" placeholder="" name="flightno">
+          
+        </div>
+        
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="airplaneid">Airplane ID</label>
+        <div class="col-sm-8">
+          <input type="airplaneid" class="form-control" id="airplaneid1" placeholder="" name="airplaneid">
+        </div>
+        
+        <label class="control-label col-sm-1" for="dairportdetail" id="ud1" ><span>details</span></label>
+        <div class="col-sm-3" id = "detail1">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="departure">Departure Airport</label>
+        <div class="col-sm-8">
+          <input type="departure" class="form-control" id="departure1" placeholder="" name="departure"> 
+        </div>
+        <label class="control-label col-sm-1" for="dairportdetail" id="ud2" ><span>details</span></label>
+        <div class="col-sm-3" id = "udetail2">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="dtime">Departure Time</label>
+        <div class="col-sm-8">
+          <input type="dtime" class="form-control" id="dtime1" placeholder="" name="dtime">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="arrival">Arrival Airport</label>
+        <div class="col-sm-8">
+          <input type="arrival" class="form-control" id="arrival1" placeholder="" name="arrival">
+        </div>
+        <label class="control-label col-sm-1" for="dairportdetail" id="ud3" ><span>details</span></label>
+        <div class="col-sm-3" id = "udetail3">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="atime">Arrival Time</label>
+        <div class="col-sm-8">
+          <input type="atime" class="form-control" id="atime1" placeholder="" name="atime">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="ecapacity">Economy Capacity</label>
+        <div class="col-sm-8">
+          <input type="ecapacity" class="form-control" id="ecapacity1" placeholder="" name="ecapacity">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="eprice">Economy Price</label>
+        <div class="col-sm-8">
+          <input type="eprice" class="form-control" id="eprice1" placeholder="" name="eprice">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="bcapacity">Business Capacity</label>
+        <div class="col-sm-8">
+          <input type="bcapacity" class="form-control" id="bcapacity1" placeholder="" name="bcapacity">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="bprice">Business Price</label>
+        <div class="col-sm-8">
+          <input type="bprice" class="form-control" id="bprice1" placeholder="" name="bprice">
+        </div>
+      </div>
+      
+      <br />
+      <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-6">
+          <input type = "button" class="btn btn-primary btn-block" value="Update" id="up" />
+          <input type = "button" class="btn btn-primary btn-block" value="Delete" id="de" />
+        </div>
+      </div>
+    </form>
+    </div>
+    <div id = "delete">
+  
+      </div>
+    <br /><br /><br />
+  </div> 
+  </section> 
+  
+<!------ footer --------->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 footer-box">
+          <h3><b>Company</b></h3>             
+          <p>About Us<p>        
+          <p>Company Details<p> 
+          <p>Privacy</p>    
+        </div>
+        <div class="col-sm-4 footer-box">
+          <h3><b>Contact Us</b></h3>  
+          <p><i class="fa fa-map-marker"></i>New Delhi, India</p>
+          <p><i class="fa fa-phone"></i>+1 9765454662</p>
+          <p><i class="fa fa-envelope-o"></i>bookairfast@gmail.com</p>
+        </div>
+        <div class="col-sm-4 social-media">
+          <h3>Follow Us On</h3>
+          <div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>          
+    <hr />
+      <div class="row">
+        <div class="col-sm-10">
+          <p id="term1">Cheap Flight Tickets - Cheap flights booking by comparing millions of air tickets to find you the cheapest  flight offers
+          </p>
+          <p id="term2"><span>Privacy</span><span>Terms & Conditions</span><span>©2020 Bookairfast.com</span></p>
+        </div>
+        <div class="col-sm-2">
+          <button class="smooth-btn"><i class="fa fa-arrow-up" title="Top" aria-hidden="true"></i></button>
+        </div>
+  </footer> 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="homepage.js"></script>
+</body>
+</html>
